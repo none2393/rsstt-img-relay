@@ -53,7 +53,8 @@ async function handleRequest(request) {
             outBody = JSON.stringify({
                 code: invalid ? 400 : 0,
                 usage: 'Host/{URL}',
-                source: 'https://github.com/Rongronggg9/rsstt-img-relay'
+                source: 'https://github.com/Rongronggg9/rsstt-img-relay',
+                A: 'is'
             });
             outCt = "application/json";
             outStatus = invalid ? 400 : 200;
